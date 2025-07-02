@@ -1,6 +1,6 @@
-# 📰 Sumarizador de Artigos com LLM, LangChain e Streamlit
+# Sumarizador de Artigos com LLM, LangChain e Streamlit
 
-## 📌 Visão Geral
+##  Visão Geral
 
 Este é um aplicativo simples e funcional que permite ao usuário colar o texto de um artigo e obter um **resumo conciso** com auxílio de **modelos de linguagem (LLMs)** via **OpenAI API**.
 
@@ -11,7 +11,7 @@ O projeto utiliza:
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 Usuário (navegador)
 │
@@ -24,7 +24,7 @@ OpenAI LLM API (GPT-3.5 Turbo Instruct)
 Resumo gerado
 
 
-### 🔧 Componentes
+###  Componentes
 
 - **Interface Web**: Criada com Streamlit para facilitar entrada e visualização
 - **LLMChain**: Usado para combinar prompt com LLM e gerar a resposta
@@ -33,7 +33,7 @@ Resumo gerado
 
 ---
 
-## 🚀 Como usar
+##  Como usar
 
 ### 1. Clone o projeto
 
@@ -60,7 +60,7 @@ streamlit run app.py
     Pode ser obtida em: https://platform.openai.com/account/api-keys
 
 5. Cole o texto do artigo e clique em "Gerar Resumo"
-📦 Estrutura do Projeto
+ Estrutura do Projeto
 
 sumarizador-artigos/
 │
